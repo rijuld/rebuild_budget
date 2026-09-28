@@ -1,0 +1,23 @@
+name: rebuild_budget
+description: >-
+  Rebuild budgets for Flutter widget tests. Measure which widgets an
+  interaction rebuilds, assert a budget, and fail CI with a readable report
+  when a change starts rebuilding half the screen.
+version: 0.1.0
+homepage: https://github.com/rijuld/rebuild_budget
+repository: https://github.com/rijuld/rebuild_budget
+issue_tracker: https://github.com/rijuld/rebuild_budget/issues
+topics: [testing, performance, widget, rebuild]
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
